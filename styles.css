@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: #231955;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+.nunito, h1, h2, h3 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    padding: 20px 0 15px 0;
+}
+
+header h1 {
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 0 10px 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 0 5px 0;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.bitter, h4, p {
+    font-family: 'Bitter', serif;
+}
+
+h4, p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.sections {
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px solid #E8AA42;
+}
+
+#styles hr, #fonts hr {
+    border: 1px dotted #E8AA42;
+    width: 50%;
+    margin: 0;
+}
+
+/* Colors */
+
+.color-box {
+    width: 20%;
+    height: 130px;
+    display: inline-block;
+    margin: 30px 5px 20px 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.color-info {
+    padding: 5px 0px;
+}
+
+.navy {
+    background-color: #231955;
+}
+
+.blue {
+    background-color: #1F4690;
+}
+
+.orange {
+    background-color: #E8AA42;
+}
+
+.summer {
+    background-color: #FFE5B4;
+    color: #231955;
+}
+
+/* Fonts */
+
+h4 {
+    font-style: italic;
+}
+
+.font-box, .style-box {
+    height: auto;
+    width: auto;
+    vertical-align: text-top;
+    margin-top: 10px;
+}
+
+.font-box {
+    margin-right: 60px;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.extralight {
+    font-weight: 200;
+}
+
+.nunito p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bitter h3 {
+    font-family: 'Bitter', serif;
+}
